@@ -1,6 +1,0 @@
-<?php
-
-function demo_panestyles_ctools_plugin_directory($module,$plugin){
-	return 'plugins/'.$plugin;
-}
-

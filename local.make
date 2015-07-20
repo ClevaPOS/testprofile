@@ -6,6 +6,12 @@ projects[drupal][version] = "7.x"
 ; include the d.o. profile base
 includes[] = "drupal-org.make"
 
+
+projects[hidigital][download][url] = "https://github.com/ClevaPOS/testprofile.git"
+projects[hidigital][type] = "profile"
+projects[hidigital][download][type] = "git"
+projects[hidigital][download][revision] = "master"
+
 projects[file_entity][type] = "module"
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][patch][] = "https://www.drupal.org/files/issues/2479483.2-uri-alter.patch"
@@ -50,7 +56,7 @@ projects[media][patch][] = "https://www.drupal.org/files/issues/2361113-media-im
 ;============================== Libraries ========================================
 
 
-libraries[awssdk][download][type] = get
+libraries[awssdk][download][type] = git
 libraries[awssdk][download][url] = "https://github.com/amazonwebservices/aws-sdk-for-php.git"
 libraries[awssdk][directory_name] = "awssdk"
 libraries[awssdk][type] = "library"
