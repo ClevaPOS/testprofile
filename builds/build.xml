@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<taskdef name="drush" classname="DrushTask" />
+<project name="MyProject" default="hello">
+<target name="hello" description="Says Hello"> <echo msg="Hello, world!" /> </target>
+<target name="cheese" description="Expresses feelings about cheese"> <echo msg="I like cheese" /> </target>
+  <taskdef name="drush" classname="DrushTask" />
+   <drush command="st" assume="yes">
+  </drush> 
+
+</project>
+
+
