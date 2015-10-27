@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="MyProject" default="hello">
-<target name="hello" description="Says Hello"> <echo msg="Hello, world!" /> </target>
-<target name="cheese" description="Expresses feelings about cheese"> <echo msg="I like cheese" /> </target>
+<project name="hidigital" default="build">
+
+
+<target name="build" description="Says Hello"> 
+	<echo msg="Hello, world!" /> 
+</target>
+
+<!--   <target name="build"
+          description="Install the site and migrate content"
+          depends="site-install,
+                   enable-dev-mode,
+                   config-masquerade,
+                   check-features" /> -->
+
   <taskdef name="drush" classname="DrushTask" />
-   <drush command="st" assume="yes">
+   <drush command="make" assume="yes">
+   		<param>.</param>
+   		<param>${drupal.make.file}</param>
+
   </drush> 
 
 </project>
