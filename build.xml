@@ -9,19 +9,8 @@
 
 
   <target name = "main" description = "main target">
-
-    <echo msg = "${phing.drush.dir}" />
-
-
-  </target>
-
-
-  <target name = "setup-phing-drush" >
-    <phingcall target = "setup-phing" >
-      
-    </phingcall>
-
-
+<!--       <echo msg = "${builddir}" />
+ -->      <echo msg = "${phing.drush.dir}" />
   </target>
 
 
