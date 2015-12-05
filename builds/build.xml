@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<project name = "hidigital" basedir = "." default = "main">
+  <property file = "./build.default.properties" />
+
+
+  <property name = "builddir" value = "./build/testsite" override = "true" />
+  <property name = "srcdir"   value = "${project.basedir}" override = "true" />
+
+
+  <target name = "main" description = "main target">
+
+    <echo msg = "${phing.drush.dir}" />
+
+
+  </target>
+
+
+  <target name = "setup-phing-drush" >
+    <phingcall target = "setup-phing" >
+      
+    </phingcall>
+
+
+  </target>
+
+
+</project>
