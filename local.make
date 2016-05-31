@@ -48,8 +48,4 @@ projects[libraries][subdir] = "contrib"
 projects[media][version] = "2.0-alpha4"
 projects[media][type] = "module"
 projects[media][subdir] = "contrib"
-projects[media][patch][] = "https://www.drupal.org/files/issues/2479473.5-upload-params.patch"
-projects[media][patch][] = "https://www.drupal.org/files/issues/2361113-media-impossible_to_save_field_settings-8.patch"
-
-
 
