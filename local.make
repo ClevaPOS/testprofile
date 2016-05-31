@@ -53,13 +53,3 @@ projects[media][patch][] = "https://www.drupal.org/files/issues/2361113-media-im
 
 
 
-;============================== Libraries ========================================
-
-
-libraries[awssdk][download][type] = git
-libraries[awssdk][download][url] = "https://github.com/amazonwebservices/aws-sdk-for-php.git"
-libraries[awssdk][directory_name] = "awssdk"
-libraries[awssdk][type] = "library"
-
-
-
