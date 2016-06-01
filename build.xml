@@ -16,7 +16,7 @@
     <target name="make">
       <drush command="make" assume="yes">
               <param>${make.file.url}</param>
-              <param>.</param>
+              <param>webroot</param>
       </drush>
     </target>
 
