@@ -3,7 +3,7 @@
 
     <taskdef name="drush" classname="DrushTask" classpath="${project.basedir}/builds" />
     <property name="make.file.url" value="${project.basedir}/local.make"/>
-
+    <property name="profile.url" value="profiles/hidigital"/>
 
 
     <target name="build" description="Says Hello"> 
@@ -16,9 +16,23 @@
     <target name="make">
       <drush command="make" assume="yes">
               <param>${make.file.url}</param>
-              <param>webroot</param>
+              <param>.</param>
+              <option name="contrib-destination" value="${profile.url}"/>
       </drush>
     </target>
+
+    <target name="install">
+      <drush command="site-install">
+        <param>hidigital</param>
+        <option name="db-url" value="mysql://root@localhost:3306/hidigital"/>
+        <option name="site-name" value="HiDigital"/>
+        <option name="locale" value="uk"/>
+        <option name="account-name" value="admin"/>
+        <option name="account-pass" value="admin"/>
+      </drush>
+    </target>
+
+
 
 </project>
 
