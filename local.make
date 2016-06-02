@@ -6,12 +6,16 @@ projects[drupal][version] = "7.x"
 ; include the d.o. profile base
 includes[] = "drupal-org.make"
 
-projects[bootstrap] = 7.x-3.5
+
+
 
 projects[hidigital][download][url] = "https://github.com/ClevaPOS/testprofile.git"
 projects[hidigital][type] = "profile"
 projects[hidigital][download][type] = "git"
 projects[hidigital][download][revision] = "master"
+
+
+projects[bootstrap][type] = "theme"
 
 projects[file_entity][type] = "module"
 projects[file_entity][subdir] = "contrib"
