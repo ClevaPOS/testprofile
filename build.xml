@@ -7,8 +7,12 @@
 
 
     <target name="build" description="Says Hello"> 
-        <echo msg="Hello, world!" /> 
-       <phingcall target="make" />  
+      <echo msg="Hello, world!" /> 
+      <phingcall target="make" />
+      <phingcall target="install" />
+      <phingcall target="clean-up" />
+
+  
     </target>
 
 
@@ -30,6 +34,17 @@
         <option name="account-name" value="admin"/>
         <option name="account-pass" value="admin"/>
       </drush>
+    </target>
+
+    <target name="clean-up">
+      <delete dir="modules" />
+      <delete dir="builds" />
+      <delete file="drupal-org.make" />
+      <delete file="local.make" />
+      <delete file="hidigital.info" />
+      <delete file="hidigital.profile" />
+      <delete file="hidigital.install" />
+      <delete file="build.xml" />
     </target>
 
 
