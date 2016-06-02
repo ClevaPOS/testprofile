@@ -6,12 +6,7 @@ core = "7.x"
 ; ----------
 ; Dependencies
 ; ----------
-; Administration
-dependencies[] = module_filter
-; Advanced CSS/JS Aggregation
-dependencies[] = advagg
-; Chaos tool suite
-dependencies[] = ctools
+
 ; Core
 dependencies[] = block
 dependencies[] = color
@@ -40,16 +35,11 @@ dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = toolbar
 dependencies[] = user
-; Development
-dependencies[] = profiler_builder
-dependencies[] = profiler_builder_extras
-; Example modules
-dependencies[] = email_example
-; Media
+
+
+;Contrib
+dependencies[] = views
+dependencies[] = media
 dependencies[] = file_entity
-; Other
-dependencies[] = composer_manager
-; Testing
-dependencies[] = simpletest
-dependencies[] = simpletest_monitor
+
 
