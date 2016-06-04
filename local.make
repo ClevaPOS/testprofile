@@ -30,6 +30,9 @@ projects[views][subdir] = "contrib"
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
 
+projects[entity][type] = "module"
+projects[entity][subdir] = "contrib"
+
 
 projects[module_filter][type] = "module"
 projects[module_filter][subdir] = "contrib"
@@ -67,6 +70,20 @@ projects[admin_menu][subdir] = "contrib"
 projects[commerce][type] = "module"
 projects[commerce][subdir] = "contrib"
 
+projects[ds][type] = "module"
+projects[ds][subdir] = "contrib"
 
+projects[ds_bootstrap_layouts][type] = "module"
+projects[ds_bootstrap_layouts][subdir] = "contrib"
+
+projects[addressfield][type] = "module"
+projects[addressfield][subdir] = "contrib"
+
+projects[rules][type] = "module"
+projects[rules][subdir] = "contrib"
+
+
+projects[views_responsive_grid][type] = "module"
+projects[views_responsive_grid][subdir] = "contrib"
 
 
