@@ -40,5 +40,12 @@ dependencies[] = user
 ;Contrib
 dependencies[] = views
 dependencies[] = file_entity
+dependencies[] = module_filter
+dependencies[] = media
+
+
+;theme
+dependencies[] = adminimal
+
 
 
