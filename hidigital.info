@@ -45,7 +45,7 @@ dependencies[] = media
 
 
 ;theme
-dependencies[] = adminimal
+dependencies[] = adminimal_theme
 
 
 
