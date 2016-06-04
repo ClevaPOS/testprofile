@@ -34,6 +34,9 @@ projects[ctools][subdir] = "contrib"
 projects[module_filter][type] = "module"
 projects[module_filter][subdir] = "contrib"
 
+projects[media][type] = "module"
+projects[media][subdir] = "contrib"
+
 
 projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
