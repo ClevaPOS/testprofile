@@ -51,5 +51,17 @@ projects[file_entity][subdir] = "contrib"
 projects[livereload][type] = "module"
 projects[livereload][subdir] = "contrib"
 
+projects[features][type] = "module"
+projects[features][subdir] = "contrib"
+
+
+projects[entityreference][type] = "module"
+projects[entityreference][subdir] = "contrib"
+
+projects[xmlsitemap][type] = "module"
+projects[xmlsitemap][subdir] = "contrib"
+
+
+
 
 

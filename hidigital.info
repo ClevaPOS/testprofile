@@ -42,6 +42,10 @@ dependencies[] = views
 dependencies[] = file_entity
 dependencies[] = module_filter
 dependencies[] = media
+dependencies[] = features
+dependencies[] = entityreference
+dependencies[] = xmlsitemap
+
 
 
 
