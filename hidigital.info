@@ -46,11 +46,4 @@ dependencies[] = features
 dependencies[] = entityreference
 dependencies[] = xmlsitemap
 dependencies[] = admin_menu
-
-
-
-
-
-
-
-
+dependencies[] = commerce

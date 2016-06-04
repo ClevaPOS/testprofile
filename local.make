@@ -64,7 +64,8 @@ projects[xmlsitemap][subdir] = "contrib"
 projects[admin_menu][type] = "module"
 projects[admin_menu][subdir] = "contrib"
 
-
+projects[commerce][type] = "module"
+projects[commerce][subdir] = "contrib"
 
 
 
