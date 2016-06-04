@@ -26,7 +26,7 @@
     </target>
 
     <target name="install">
-      <drush command="site-install">
+      <drush command="site-install" assum="yes">
         <param>hidigital</param>
         <option name="db-url" value="mysql://root@localhost:3306/hidigital"/>
         <option name="site-name" value="HiDigital"/>
