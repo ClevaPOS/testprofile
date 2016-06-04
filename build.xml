@@ -37,7 +37,6 @@
     </target>
 
     <target name="clean-up">
-      <delete dir="modules" />
       <delete dir="builds" />
       <delete file="drupal-org.make" />
       <delete file="local.make" />
