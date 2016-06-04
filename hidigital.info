@@ -39,7 +39,6 @@ dependencies[] = user
 
 ;Contrib
 dependencies[] = views
-dependencies[] = media
 dependencies[] = file_entity
 
 
