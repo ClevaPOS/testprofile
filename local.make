@@ -61,6 +61,10 @@ projects[entityreference][subdir] = "contrib"
 projects[xmlsitemap][type] = "module"
 projects[xmlsitemap][subdir] = "contrib"
 
+projects[admin_menu][type] = "module"
+projects[admin_menu][subdir] = "contrib"
+
+
 
 
 
