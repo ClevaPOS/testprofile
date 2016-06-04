@@ -38,8 +38,6 @@ projects[module_filter][subdir] = "contrib"
 projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
 
-projects[media][type] = "module"
-projects[media][subdir] = "contrib"
 
 projects[livereload][type] = "module"
 projects[livereload][subdir] = "contrib"
