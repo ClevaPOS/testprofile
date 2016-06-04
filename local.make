@@ -39,6 +39,12 @@ projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
 
 
+projects[views][type] = "module"
+projects[views][subdir] = "contrib"
+
+projects[file_entity][type] = "module"
+projects[file_entity][subdir] = "contrib"
+
 projects[livereload][type] = "module"
 projects[livereload][subdir] = "contrib"
 
