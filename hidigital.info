@@ -44,8 +44,5 @@ dependencies[] = module_filter
 dependencies[] = media
 
 
-;theme
-dependencies[] = adminimal_theme
-
 
 
