@@ -45,5 +45,9 @@ dependencies[] = media
 dependencies[] = features
 dependencies[] = entityreference
 dependencies[] = xmlsitemap
-dependencies[] = admin_menu
+
+;commerce
 dependencies[] = commerce
+dependencies[] = commerce_ui
+dependencies[] = commerce_product_reference
+
