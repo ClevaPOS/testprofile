@@ -70,11 +70,41 @@ projects[admin_menu][subdir] = "contrib"
 projects[commerce][type] = "module"
 projects[commerce][subdir] = "contrib"
 
-projects[ds][type] = "module"
-projects[ds][subdir] = "contrib"
+projects[commerce_checkout_login][type] = "module"
+projects[commerce_checkout_login][subdir] = "contrib"
 
-projects[ds_bootstrap_layouts][type] = "module"
-projects[ds_bootstrap_layouts][subdir] = "contrib"
+projects[commerce_extra][type] = "module"
+projects[commerce_extra][subdir] = "contrib"
+
+projects[commerce_shipping][type] = "module"
+projects[commerce_shipping][subdir] = "contrib"
+
+projects[commerce_stock][type] = "module"
+projects[commerce_stock][subdir] = "contrib"
+
+projects[commerce_views_display][type] = "module"
+projects[commerce_views_display][subdir] = "contrib"
+
+projects[entityform][type] = "module"
+projects[entityform][subdir] = "contrib"
+
+projects[fivestar][type] = "module"
+projects[fivestar][subdir] = "contrib"
+
+projects[inline_entity_form][type] = "module"
+projects[inline_entity_form][subdir] = "contrib"
+
+projects[jquery_update][type] = "module"
+projects[jquery_update][subdir] = "contrib"
+
+projects[pathauto][type] = "module"
+projects[pathauto][subdir] = "contrib"
+
+projects[token][type] = "module"
+projects[token][subdir] = "contrib"
+
+projects[votingapi][type] = "module"
+projects[votingapi][subdir] = "contrib"
 
 projects[addressfield][type] = "module"
 projects[addressfield][subdir] = "contrib"
