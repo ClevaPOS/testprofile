@@ -70,11 +70,29 @@ dependencies[] = commerce_customer_ui
 dependencies[] = commerce_checkout
 dependencies[] = commerce_cart
 
-dependencies[] = ds
-dependencies[] = ds_bootstrap_layouts
-dependencies[] = addressfield
-
 dependencies[] = entity
+
+dependencies[] = commerce_checkout_login
+dependencies[] = commerce_extra
+dependencies[] = commerce_shipping
+
+dependencies[] = commerce_stock
+dependencies[] = commerce_views_display
+
+dependencies[] = entityform
+dependencies[] = inline_entity_form
+
+dependencies[] = fivestar
+dependencies[] = votingapi
+dependencies[] = pathauto
+
+dependencies[] = jquery_update
+dependencies[] = token
+
+
+
+
+
 dependencies[] = views_responsive_grid
 
 
