@@ -124,7 +124,7 @@ function hidigital_install() {
 
 
 function hidigital_enable() {
-  if (module_exists('toolbar') {
+  if (module_exists('toolbar')) {
     module_disable('toolbar');
   }
 }
