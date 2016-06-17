@@ -91,7 +91,7 @@ dependencies[] = token
 dependencies[] = panelizer
 dependencies[] = panels
 
-
+dependencies[] = adminimal_admin_menu
 dependencies[] = views_responsive_grid
 
 
