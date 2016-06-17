@@ -121,3 +121,10 @@ function hidigital_install() {
   // ignore any other install messages
   drupal_get_messages();
 }
+
+
+function hidigital_enable() {
+  if (module_exists('toolbar') {
+    module_disable('toolbar');
+  }
+}

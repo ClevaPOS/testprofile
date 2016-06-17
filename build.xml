@@ -4,15 +4,24 @@
     <taskdef name="drush" classname="DrushTask" classpath="${project.basedir}/builds" />
     <property name="make.file.url" value="${project.basedir}/local.make"/>
     <property name="profile.url" value="profiles/hidigital"/>
+    <property name="db.url" value="mysql://${dbuser}:${dbpwd}@localhost:3306/hidigital"/>
+
 
 
     <target name="build" description="Says Hello"> 
       <echo msg="Hello, world!" /> 
-      <phingcall target="make" />
-      <phingcall target="install" />
-      <phingcall target="clean-up" />
 
-  
+
+      <if>
+         <equals arg1="${dbpwd}" arg2="" />
+        <then>
+          <property name="db.url" value="mysql://${dbuser}@localhost:3306/hidigital"/>
+        </then>
+      </if>
+
+      <phingcall target="make" />
+        <phingcall target="install" />
+      <phingcall target="clean-up" />
     </target>
 
 
