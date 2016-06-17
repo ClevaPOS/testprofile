@@ -6,7 +6,7 @@
  */
 function hidigital_install() {
   // Enable some hidigital blocks.
-  $default_theme = 'bootstrap';
+  $default_theme = 'hidigital';
   $admin_theme = 'adminimal';
   // disable all themes
   db_update('system')
