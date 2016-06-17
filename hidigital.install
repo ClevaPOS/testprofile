@@ -81,6 +81,15 @@ function hidigital_install() {
       'cache' => -1,
     ),
   );
+
+    // disable all themes
+  db_update('system')
+    ->fields(array('status' => 0))
+    ->condition('name', 'toolbar')
+    ->condition('type', 'module')
+    ->execute();
+
+
   // drop system / user blocks to ensure correct building
   db_delete('block')->condition('module', 'system')->execute();
   db_delete('block')->condition('module', 'user')->execute();
@@ -110,6 +119,8 @@ function hidigital_install() {
   // Set this as the administrator role.
   variable_set('user_admin_role', $admin_role->rid);
 
+
+
   // Assign user 1 the "administrator" role.
   db_insert('users_roles')
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
@@ -123,8 +134,3 @@ function hidigital_install() {
 }
 
 
-function hidigital_enable() {
-  if (module_exists('toolbar')) {
-    module_disable('toolbar');
-  }
-}
