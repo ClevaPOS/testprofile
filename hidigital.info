@@ -88,9 +88,8 @@ dependencies[] = pathauto
 
 dependencies[] = jquery_update
 dependencies[] = token
-
-
-
+dependencies[] = panelizer
+dependencies[] = panels
 
 
 dependencies[] = views_responsive_grid
