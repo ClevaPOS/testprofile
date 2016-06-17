@@ -28,7 +28,7 @@
     <target name="install">
       <drush command="site-install" assume="yes">
         <param>hidigital</param>
-        <option name="db-url" value="mysql://root@localhost:3306/hidigital"/>
+        <option name="db-url" value="mysql://${dbuser}:${dbpwd}@localhost:3306/hidigital"/>
         <option name="site-name" value="HiDigital"/>
         <option name="locale" value="uk"/>
         <option name="account-name" value="admin"/>
