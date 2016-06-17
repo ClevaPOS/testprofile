@@ -1,0 +1,48 @@
+name = Bootstrap Sub-Theme (LESS)
+description = Hidigital
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = 'assets/js/bootstrap/affix.js'
+scripts[] = 'assets/js/bootstrap/alert.js'
+scripts[] = 'assets/js/bootstrap/button.js'
+scripts[] = 'assets/js/bootstrap/carousel.js'
+scripts[] = 'assets/js/bootstrap/collapse.js'
+scripts[] = 'assets/js/bootstrap/dropdown.js'
+scripts[] = 'assets/js/bootstrap/modal.js'
+scripts[] = 'assets/js/bootstrap/tooltip.js'
+scripts[] = 'assets/js/bootstrap/popover.js'
+scripts[] = 'assets/js/bootstrap/scrollspy.js'
+scripts[] = 'assets/js/bootstrap/tab.js'
+scripts[] = 'assets/js/bootstrap/transition.js'
+
+; Disable BootstrapCDN so the compiled LESS source files can be used.
+settings[bootstrap_cdn] = ''
