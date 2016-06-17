@@ -116,4 +116,12 @@ projects[rules][subdir] = "contrib"
 projects[views_responsive_grid][type] = "module"
 projects[views_responsive_grid][subdir] = "contrib"
 
+projects[panels][type] = "module"
+projects[panels][subdir] = "contrib"
+
+projects[panelizer][type] = "module"
+projects[panelizer][subdir] = "contrib"
+
+
+
 
