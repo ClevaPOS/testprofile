@@ -106,3 +106,5 @@ dependencies[] = panels_ipe
 dependencies[] = commerce_shipping_ui
 dependencies[] = views_ui
 
+dependencies[] = i18n
+
