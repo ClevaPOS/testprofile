@@ -134,6 +134,13 @@ projects[entity_translation][subdir] = "contrib"
 projects[title][type] = "module"
 projects[title][subdir] = "contrib"
 
+projects[auto_nodetitle][type] = "module"
+projects[auto_nodetitle][subdir] = "contrib"
+
+projects[search_api][type] = "module"
+projects[search_api][subdir] = "contrib"
+
+
 
 
 
