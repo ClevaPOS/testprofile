@@ -146,6 +146,10 @@ projects[search_api_et][subdir] = "contrib"
 projects[viet_typing][type] = "module"
 projects[viet_typing][subdir] = "contrib"
 
+projects[variable][type] = "module"
+projects[variable][subdir] = "contrib"
+
+
 
 
 
