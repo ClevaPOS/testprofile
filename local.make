@@ -140,6 +140,8 @@ projects[auto_nodetitle][subdir] = "contrib"
 projects[search_api][type] = "module"
 projects[search_api][subdir] = "contrib"
 
+projects[search_api_et][type] = "module"
+projects[search_api_et][subdir] = "contrib"
 
 
 
