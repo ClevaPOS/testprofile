@@ -53,8 +53,12 @@
       <delete file="hidigital.profile" />
       <delete file="hidigital.install" />
       <delete file="build.xml" />
-      <move file=".git" todir="/profiles/hidigital"/>
-      <move file=".gitignore" todir="/profiles/hidigital"/>
+      <copy todir="/profiles/hidigital">
+        <fileset dir=".git">
+            <include name="**"></include>
+        </fileset>
+      </copy>
+      <copy file=".gitignore" todir="/profiles/hidigital"/>
 
     </target>
 
