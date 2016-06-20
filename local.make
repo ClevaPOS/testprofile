@@ -128,9 +128,11 @@ projects[adminimal_admin_menu][subdir] = "contrib"
 projects[i18n][type] = "module"
 projects[i18n][subdir] = "contrib"
 
-projects[entity_translation][subdir] = "contrib"
+projects[entity_translation][type] = "module"
 projects[entity_translation][subdir] = "contrib"
 
+projects[title][type] = "module"
+projects[title][subdir] = "contrib"
 
 
 
