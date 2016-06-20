@@ -117,4 +117,7 @@ dependencies[] = search_api
 
 dependencies[] = search_api_et
 
+dependencies[] = viet_typing
+dependencies[] = variable
+
 
