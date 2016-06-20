@@ -20,8 +20,8 @@ function hidigital_translation_locale_default_languages() {
     'plurals' => 0,
     'formula' => '',
     'domain' => '',
-    'prefix' => '',
-    'weight' => 0,
+    'prefix' => 'en',
+    'weight' => -9,
   );
   // Exported language: vi.
   $languages['vi'] = array(
@@ -34,7 +34,7 @@ function hidigital_translation_locale_default_languages() {
     'formula' => '',
     'domain' => '',
     'prefix' => 'vi',
-    'weight' => 0,
+    'weight' => -10,
   );
   return $languages;
 }

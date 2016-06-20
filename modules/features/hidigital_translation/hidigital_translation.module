@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the Hidigital Translation feature.
  */
+
+include_once 'hidigital_translation.features.inc';
