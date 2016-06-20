@@ -113,7 +113,8 @@ dependencies[] = title
 dependencies[] = translation
 
 dependencies[] = auto_nodetitle
-
 dependencies[] = search_api
+
+dependencies[] = search_api_et
 
 
