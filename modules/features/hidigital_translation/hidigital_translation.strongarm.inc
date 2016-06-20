@@ -57,16 +57,16 @@ function hidigital_translation_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'language_default';
   $strongarm->value = (object) array(
-    'language' => 'vi',
-    'name' => 'Vietnamese',
-    'native' => 'Tiếng Việt',
+    'language' => 'en',
+    'name' => 'English',
+    'native' => 'English',
     'direction' => '0',
     'enabled' => 1,
     'plurals' => '0',
     'formula' => '',
     'domain' => '',
-    'prefix' => 'vi',
-    'weight' => '-10',
+    'prefix' => 'en',
+    'weight' => '-9',
     'javascript' => '',
   );
   $export['language_default'] = $strongarm;
