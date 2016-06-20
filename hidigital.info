@@ -114,4 +114,6 @@ dependencies[] = translation
 
 dependencies[] = auto_nodetitle
 
+dependencies[] = search_api
+
 
