@@ -143,6 +143,10 @@ projects[search_api][subdir] = "contrib"
 projects[search_api_et][type] = "module"
 projects[search_api_et][subdir] = "contrib"
 
+projects[viet_typing][type] = "module"
+projects[viet_typing][subdir] = "contrib"
+
+
 
 
 
