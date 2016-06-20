@@ -120,4 +120,6 @@ dependencies[] = search_api_et
 dependencies[] = viet_typing
 dependencies[] = variable
 
+;Feature
+dependencies[] = hidigital_translation
 
