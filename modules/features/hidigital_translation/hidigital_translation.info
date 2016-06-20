@@ -1,0 +1,10 @@
+name = Hidigital Translation
+description = Translation package
+core = 7.x
+package = Hidigital
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = locale
+features[features_api][] = api:2
+features[language][] = en
+features[language][] = vi
