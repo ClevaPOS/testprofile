@@ -110,5 +110,6 @@ dependencies[] = i18n
 
 dependencies[] = entity_translation
 dependencies[] = title
+dependencies[] =translation
 
 
