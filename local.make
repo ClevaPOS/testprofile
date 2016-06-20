@@ -125,6 +125,9 @@ projects[panelizer][subdir] = "contrib"
 projects[adminimal_admin_menu][type] = "module"
 projects[adminimal_admin_menu][subdir] = "contrib"
 
+projects[i18n][type] = "module"
+projects[i18n][subdir] = "contrib"
+
 
 
 
