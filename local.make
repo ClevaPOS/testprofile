@@ -150,6 +150,11 @@ projects[variable][type] = "module"
 projects[variable][subdir] = "contrib"
 
 
+projects[strongarm][type] = "module"
+projects[strongarm][subdir] = "contrib"
+
+
+
 
 
 
