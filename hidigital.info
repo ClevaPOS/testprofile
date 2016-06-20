@@ -109,4 +109,6 @@ dependencies[] = views_ui
 dependencies[] = i18n
 
 dependencies[] = entity_translation
+dependencies[] = title
+
 
