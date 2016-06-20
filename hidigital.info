@@ -110,6 +110,8 @@ dependencies[] = i18n
 
 dependencies[] = entity_translation
 dependencies[] = title
-dependencies[] =translation
+dependencies[] = translation
+
+dependencies[] = auto_nodetitle
 
 
